@@ -21,7 +21,7 @@ const isTriangle = () => {
     inputs[1].value < 0 ||
     inputs[2].value < 0
   ) {
-    outputEl.innerText = 'Please Enter All Positive Values';
+    outputEl.innerText = 'Please Enter All Positive Values First';
   }
 };
 
