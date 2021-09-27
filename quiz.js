@@ -1,7 +1,7 @@
-const quizForm = document.querySelector(".quiz-form");
-const submitAnswerBtn = document.querySelector("#submit-answer-btn");
-const outputE1 = document.querySelector("#output");
-const correctAns = ["90°", "right angled"];
+const quizForm = document.querySelector('.quiz-form');
+const submitAnswerBtn = document.querySelector('#submit-answer-btn');
+const outputE1 = document.querySelector('#output');
+const correctAns = ['90°', 'right angled', '32 cm', '75 cm square', '12 cm'];
 
 const calculateScore = () => {
   let score = 0,
@@ -13,6 +13,6 @@ const calculateScore = () => {
     }
     i++;
   }
-  outputE1.innerText = "Your score is " + score;
+  outputE1.innerText = 'Your score is ' + score;
 };
-submitAnswerBtn.addEventListener("click", calculateScore);
+submitAnswerBtn.addEventListener('click', calculateScore);
